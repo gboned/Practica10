@@ -25,7 +25,7 @@ class Animal {
 
 // Creo las clases que heredan de Animal.
 class Perro extends Animal {
-    constructor(especie, clase, numeroPatas, sonido) {
+    constructor(especie, clase, numeroPatas, sonido, raza) {
         // Para el constructor de la clase, invoco al constructor de la clase Animal.
         super(especie, clase, numeroPatas, sonido);
         // Añado un atributo propio de los perros.
@@ -42,7 +42,7 @@ class Perro extends Animal {
 }
 
 class Gato extends Animal {
-    constructor(especie, clase, numeroPatas, sonido){
+    constructor(especie, clase, numeroPatas, sonido, origen){
         // Para el constructor de la clase, invoco al constructor de la clase Animal.
         super(especie, clase, numeroPatas, sonido);
         // Añado un atributo propio de los gatos.
@@ -57,3 +57,8 @@ class Gato extends Animal {
         console.log(`"¡${this.sonido}, ${this.sonido}!"`);
     }
 }
+
+// Creo instancias de animales.
+var pajaro = new Animal("Pájaro", "Ovíparo", 2, "Pio");
+var perroLabrador = new Perro("Perro", "Vivíparo", 4, "Guau", "Labrador");
+var gatoEgipcio = new Gato("Gato", "Vivíparo", 4, "Miau", "Egipto");

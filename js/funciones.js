@@ -48,4 +48,12 @@ class Gato extends Animal {
         // Añado un atributo propio de los gatos.
         this.origen = origen;
     }
+    // Creo los dos métodos.
+    describir() {
+        console.log(`Este ${this.especie} proviene de ${this.origen}`);
+    }
+
+    sonido() {
+        console.log(`"¡${this.sonido}, ${this.sonido}!"`);
+    }
 }

@@ -15,11 +15,11 @@ class Animal {
     }
     // Añado dos métodos.
     describir() {
-        console.log(`El ${this.especie} es un animal ${this.clase} que tiene ${this.numeroPatas} patas.`)
+        console.log(`El ${this.especie} es un animal ${this.clase} que tiene ${this.numeroPatas} patas.`);
     }
 
     sonido() {
-        console.log(`"${this.sonido}, ${this.sonido}", dijo el ${this.especie}.`)
+        console.log(`"${this.sonido}, ${this.sonido}", dijo el ${this.especie}.`);
     }
 }
 
@@ -33,6 +33,10 @@ class Perro extends Animal {
     }
     // Creo los dos métodos.
     describir() {
-        console.log(`Este ${this.especie} es de raza ${this.raza}.`)
+        console.log(`Este ${this.especie} es de raza ${this.raza}.`);
+    }
+
+    sonido() {
+        console.log(`"¡${this.sonido}, ${this.sonido}!"`);
     }
 }

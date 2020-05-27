@@ -40,3 +40,12 @@ class Perro extends Animal {
         console.log(`"¡${this.sonido}, ${this.sonido}!"`);
     }
 }
+
+class Gato extends Animal {
+    constructor(especie, clase, numeroPatas, sonido){
+        // Para el constructor de la clase, invoco al constructor de la clase Animal.
+        super(especie, clase, numeroPatas, sonido);
+        // Añado un atributo propio de los gatos.
+        this.origen = origen;
+    }
+}

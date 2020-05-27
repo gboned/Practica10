@@ -18,4 +18,8 @@ class Animal {
     describir() {
         console.log(`El ${this.especie} es un animal ${this.clase} que tiene ${this.numeroPatas} patas.`)
     }
+
+    sonido() {
+        console.log(`"${this.sonido}, ${this.sonido}", dijo el ${this.especie}.`)
+    }
 }

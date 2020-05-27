@@ -58,7 +58,9 @@ class Gato extends Animal {
     }
 }
 
-// Creo instancias de animales.
+// Creo instancias de un animal que no es ninguno de los que heredan de Animal.
 var pajaro = new Animal("Pájaro", "Ovíparo", 2, "Pio");
+// Creo una instancia de un perro, añadiendo una raza.
 var perroLabrador = new Perro("Perro", "Vivíparo", 4, "Guau", "Labrador");
+// Creo una instancia de un gato, añadiendo origen.
 var gatoEgipcio = new Gato("Gato", "Vivíparo", 4, "Miau", "Egipto");

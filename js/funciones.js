@@ -64,3 +64,14 @@ var pajaro = new Animal("Pájaro", "Ovíparo", 2, "Pio");
 var perroLabrador = new Perro("Perro", "Vivíparo", 4, "Guau", "Labrador");
 // Creo una instancia de un gato, añadiendo origen.
 var gatoEgipcio = new Gato("Gato", "Vivíparo", 4, "Miau", "Egipto");
+
+// Llamo a las instancias y sus métodos.
+// Del pájaro:
+pajaro.describir();
+pajaro.sonidoAnimal();
+// Del perro:
+perroLabrador.describir();
+perroLabrador.sonidoAnimal();
+// Del gato:
+gatoEgipcio.describir();
+gatoEgipcio.sonidoAnimal();

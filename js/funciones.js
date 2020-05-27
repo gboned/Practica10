@@ -31,4 +31,8 @@ class Perro extends Animal {
         // Añado un atributo propio de los perros.
         this.raza = raza;
     }
+    // Creo los dos métodos.
+    describir() {
+        console.log(`Este ${this.especie} es de raza ${this.raza}.`)
+    }
 }

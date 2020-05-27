@@ -18,7 +18,7 @@ class Animal {
         console.log(`El ${this.especie} es un animal ${this.clase} que tiene ${this.numeroPatas} patas.`);
     }
 
-    sonido() {
+    sonidoAnimal() {
         console.log(`"${this.sonido}, ${this.sonido}", dijo el ${this.especie}.`);
     }
 }
@@ -36,7 +36,7 @@ class Perro extends Animal {
         console.log(`Este ${this.especie} es de raza ${this.raza}.`);
     }
 
-    sonido() {
+    sonidoAnimal() {
         console.log(`"¡${this.sonido}, ${this.sonido}!"`);
     }
 }
@@ -53,7 +53,7 @@ class Gato extends Animal {
         console.log(`Este ${this.especie} proviene de ${this.origen}`);
     }
 
-    sonido() {
+    sonidoAnimal() {
         console.log(`"¡${this.sonido}, ${this.sonido}!"`);
     }
 }
